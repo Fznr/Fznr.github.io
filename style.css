@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#navbar{
+    background-color: whitesmoke;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: fixed;
+    z-index: 100000;
+  
+    
+}
+#logonav{
+    background-color: rgb(93, 182, 93);
+    height: 100%;
+    width: 250px;
+    display: flex;
+}
+
+#logonav img{
+    padding-top: 2px;
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+#logo-text{
+    
+    align-items: center;
+    font-family: sans-serif;
+    letter-spacing: 0.2em;
+    color: white;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+
+
+ul{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-left: 1355px;
+}
+
+li{
+    display: inline-block;
+    left: 50px;
+}
+
+ul li a{
+    color:rgb(110, 105, 105);
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#homeimage {
+    background-image: url(home.jpg);
+    background-color: rgba(76, 170, 170, 90);
+    background-repeat: no-repeat;
+    height: 500px;
+    position: sticky;
+}
+#homeimage h1{
+    font-size: 120px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 112px 15px;
+    color: white;
+    letter-spacing: 2px;
+}
+#services{
+    /* background-color: yellowgreen; */
+    height: 100px;
+    width: 1400px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 80px;
+    
+}
+#title{
+    font-size: 50px;
+    text-decoration: underline;
+    
+    text-align: center;
+}
+
+#serpict{
+    display: flex;
+    /* background-color: rgb(93, 182, 93); */
+    justify-content: center;
+    align-items: center;
+}
+
+#serpict #truck {
+    background-color: rgb(93, 182, 93);
+    border-radius: 100%;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 40px;
+    
+}
+
+#serpict #cart {
+    background-color: rgb(93, 182, 93);
+    border-radius: 80%;
+    padding: 40px;
+    margin: 0 40px;
+    
+}
+
+#serpict #milling{
+    background-color: rgb(93, 182, 93);
+    border-radius: 100%;
+    padding: 40px;
+    margin: 0 40px;
+    
+}
+
+.bagian2{
+    background-color: rgba(172, 172, 172, 0.2);
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 70px;
+    height: 500px;
+}
+
+.bagian2 h4{
+    color: rgb(93, 182, 93);
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.bagian2 p {
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 10px;
+    display: flex;
+    line-height: 30px;
+}
+.bagian2 img{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    float: left;
+    
+}
+
+/* ini footer */
+#footer{
+    background-color: whitesmoke;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+#social {
+    text-align: center;
+}
+
+#foottag {
+    font-size: 20px;
+    padding: 25px;
+    color: rgb(143, 139, 139);
+    font-weight: bolder;
+
+}
+
+#value{
+    height: 250px;
+    justify-content: center;
+    display: flex;
+}
+#kolom1{
+    height: 100%;
+    background-color: whitesmoke;
+    width: 300px;
+    margin-right: 15px;
+    border-radius: 6%;
+    box-shadow: 2px 2px 20px grey;
+    text-align: center;
+    
+}
+#value h2{
+    font-family: monospace;
+    font-weight: light;
+    padding-top: 10px;
+}
+#value1 h2{
+    font-family: monospace;
+    font-weight: light;
+    padding-top: 10px;
+}
+#kolom2{
+    height: 100%;
+    background-color: whitesmoke;
+    width: 300px;
+    margin-left: 15px;
+    border-radius: 6%;
+    box-shadow: 2px 2px 20px grey;
+    text-align: center;
+}
+
+#value1{
+    height: 250px;
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+#kolom3{
+    height: 100%;
+    background-color: whitesmoke;
+    width: 300px;
+    margin-right: 15px;
+    border-radius: 6%;
+    box-shadow: 2px 2px 20px grey;
+    text-align: center;
+}
+
+#kolom4{
+    height: 100%;
+    background-color: whitesmoke;
+    width: 300px;
+    margin-left: 15px;
+    border-radius: 6%;
+    box-shadow: 2px 2px 20px grey;
+    text-align: center;
+}
+#farmeetvalue{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    padding-bottom: 70px;
+}
